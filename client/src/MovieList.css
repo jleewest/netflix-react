@@ -1,0 +1,21 @@
+.MovieList {
+  padding: 0 0 1rem;
+}
+
+.MovieList ul {
+  list-style-type: none;
+  display: flex;
+  overflow: scroll;
+}
+
+.MovieList ul::-webkit-scrollbar {
+  display: none;
+}
+
+.MovieList li {
+  padding: 0.25rem;
+}
+
+.MovieList img {
+  max-height: 10rem;
+}

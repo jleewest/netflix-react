@@ -1,0 +1,14 @@
+.App nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 2rem;
+  background-color: black;
+}
+
+.App #logo {
+  max-height: 25px;
+}
+
+.App .body {
+  padding: 0.75rem 2rem;
+}

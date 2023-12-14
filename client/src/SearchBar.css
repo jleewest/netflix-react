@@ -1,0 +1,32 @@
+.SearchBar {
+  position: relative;
+  z-index: 1;
+  background-color: black;
+}
+
+#outerSearch {
+  border-radius: 50px;
+  overflow: hidden;
+  background-color: black;
+}
+
+.SearchBar #search {
+  border-radius: 50px;
+  padding: 7px;
+  border: none;
+  color: grey;
+  background-color: transparent;
+  max-width: 8rem;
+}
+
+#searchSelect {
+  color: grey;
+  list-style-type: none;
+  font-size: 0.75rem;
+  position: absolute;
+  z-index: 2;
+}
+
+#searchSelect li {
+  padding: 0.2rem;
+}

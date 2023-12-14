@@ -1,0 +1,46 @@
+.MovieItem {
+  position: relative;
+}
+
+.MovieItem #poster {
+  position: relative;
+  z-index: 1;
+}
+.MovieItem #title {
+  position: absolute;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 0.5em;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  padding: 0.6em;
+  bottom: 0.5em;
+  opacity: 0;
+}
+
+.MovieItem #btn {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0);
+  top: 82%;
+  right: 0%;
+  padding: 0.2em;
+  border: none;
+  opacity: 0;
+}
+
+.MovieItem #btn:hover {
+  transition: opacity ease-in-out 0.2s;
+  opacity: 1;
+}
+
+.MovieItem #btnIcon {
+  background-color: rgba(0, 0, 0, 0);
+  max-height: 1.5em;
+}
+
+#hover:hover #title {
+  transition: opacity ease-in-out 0.2s;
+  opacity: 1;
+}
